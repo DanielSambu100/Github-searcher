@@ -49,9 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Manipulate either on VS code or any other editor.
 
 ## Technologies Used
-
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
+* Typescript
 * [AngulerCLI]
 * markdown
 * [Bootstrap](https://github.com/topics/bootstrap)
