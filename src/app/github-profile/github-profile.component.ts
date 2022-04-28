@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileServiceService } from '../profile-service.service';
+import { Profile } from '../profile';
 
 @Component({
   selector: 'app-github-profile',
@@ -8,9 +9,18 @@ import { ProfileServiceService } from '../profile-service.service';
 })
 export class GithubProfileComponent implements OnInit {
 
+  user:any;
+  profile:Profile | undefined;
   constructor(private profileServiceService:ProfileServiceService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
+  onSubmit(userName:string){
+    console.log(userName);
 
+    this.profileServiceService.getUser(userName).then((result)=>{
+      console.log(result);
+      this.user=result;
+    })
+
+  }
 }

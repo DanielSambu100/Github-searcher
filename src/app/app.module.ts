@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { GithubReposComponent } from './github-repos/github-repos.component';
+import { ProfileServiceService } from './profile-service.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { GithubReposComponent } from './github-repos/github-repos.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [(ProfileServiceService)],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
