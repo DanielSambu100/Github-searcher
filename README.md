@@ -13,7 +13,7 @@ An Angular-based website where users may enter a GitHub username into a form, su
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Live Page 
-https://danielsambu100.github.io/Github-Search/
+https://danielsambu100.github.io/Github-searcher/
 
 ## Development server
 
@@ -49,9 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Manipulate either on VS code or any other editor.
 
 ## Technologies Used
-
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
+* Typescript
 * [AngulerCLI]
 * markdown
 * [Bootstrap](https://github.com/topics/bootstrap)
