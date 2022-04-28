@@ -19,7 +19,7 @@ export class GithubProfileComponent implements OnInit {
 
     this.profileServiceService.getUser(userName).then((result)=>{
       console.log(result);
-      this.user=result;
+      this.userName=result;
     })
 
   }
